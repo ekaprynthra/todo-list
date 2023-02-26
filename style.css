@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: lightblue;
+  font-family: "Poppins", sans-serif;
+}
+
+.white-rounded {
+  border-radius: 10px;
+  background-color: white;
+}
+
+li {
+  line-height: 3rem;
+  text-transform: capitalize;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 75%;
+  cursor: pointer;
+}
